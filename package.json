@@ -123,7 +123,7 @@
         "fast-xml-parser": "5.4.1",
         "follow-redirects": "^1.15.11",
         "genius-lyrics": "^4.4.7",
-        "grandiose": "github:ChurchApps/grandiose#bf9a400",
+        "grandiose": "github:ChurchApps/grandiose#4e02dea",
         "json-bible": "^1.1.5",
         "jzz": "^1.9.5",
         "libltc-wrapper": "github:bitfocus/libltc-wrapper#9637e39",
