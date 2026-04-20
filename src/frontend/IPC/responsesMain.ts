@@ -398,7 +398,9 @@ export const mainResponses: MainResponses = {
                     updateExistingShow(existingShow.id)
                     continue
                 }
+            }
 
+            if ((existingShow && songOrigin !== "local") || songOrigin === "online") {
                 // set link so we will automatically update from the provider in the future
                 if (!show.quickAccess) show.quickAccess = {}
                 show.quickAccess[linkKey] = id
