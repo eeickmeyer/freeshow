@@ -383,6 +383,9 @@ export const mainResponses: MainResponses = {
                     if (globalGroup) slide.globalGroup = globalGroup
                 })
 
+                // set modified to now, so it will update properly in history
+                if (show.timestamps) show.timestamps.modified = Date.now()
+
                 tempShows.push({ id: linkedShow.id, show: { ...show, origin, name: checkName(show.name, linkedShow.id) } })
                 continue
             }
